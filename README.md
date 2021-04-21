@@ -19,7 +19,7 @@ Video를 Image로 변환하기 위함
 **Image Combine** -> /video_to_image/images/filename_match.py  
 Video to Image를 통해 변환된 이미지 중 사용할 이미지만 고른 뒤 하나의 폴더에 합침 total_image라는 폴더로 합쳐짐
 
-**Labeling for Object Detection** -> [labelme](https://github.com/wkentaro/labelme#ubuntu-1910--debian-sid)   
+**Labeling for Object Detection** -> [labelme](https://github.com/wkentaro/labelme)   
 Object Detection을 위한 데이터는 class에 따른 BBox를 알려주는 annotation 파일을 필요로 한다. labelme 를 통해 BBox를 지정하여 각각의 이미지에 json 파일을 생성한다.
 
 **Labelme to coco format** -> [labelme2coco](https://github.com/fcakyon/labelme2coco)  
